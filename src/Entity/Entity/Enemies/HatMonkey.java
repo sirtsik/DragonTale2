@@ -30,7 +30,7 @@ public class HatMonkey extends Enemy{
         sprites = Content.HatMonkey[0];
         animation = new Animation();
         animation.setFrames(sprites);
-        animation.setDelay(300);
+        animation.setDelay(100);
 
         right = true;
         facingRight = true;

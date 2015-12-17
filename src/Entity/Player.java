@@ -102,7 +102,7 @@ public class Player extends MapObject {
         animation = new Animation();
         currentAction = IDLE;
         animation.setFrames(sprites.get(IDLE));
-        animation.setDelay(400);
+        animation.setDelay(100);
     }
 
     public int getHealth() {
@@ -351,7 +351,7 @@ public class Player extends MapObject {
             if (currentAction != IDLE) {
                 currentAction = IDLE;
                 animation.setFrames(sprites.get(IDLE));
-                animation.setDelay(400);
+                animation.setDelay(100);
                 width = 30;
             }
         }
